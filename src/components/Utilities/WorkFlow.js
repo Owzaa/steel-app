@@ -4,7 +4,6 @@ import TimelineItem from '@mui/lab/TimelineItem';
 import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
-import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import ListAltIcon from '@mui/icons-material/ListAlt'; 
 import TaskIcon from '@mui/icons-material/Task'; 
@@ -25,10 +24,10 @@ function WorkFlow() {
                   <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h6" component="span">
-                      Project Brief
+                  <Typography variant="h5" component="span" className='align-center'>
+                      PROJECT BRIEF
                   </Typography>
-                  <Typography variant="body2"
+                  <Typography variant="body1"
                       color="text.secondary">
                     Provide us with a detailed brief for your project.This will include discussing sizes, detailing, 
                     location and other requirements for your project.
@@ -36,13 +35,7 @@ function WorkFlow() {
               </TimelineContent>
           </TimelineItem>
           <TimelineItem>
-              <TimelineOppositeContent
-                  sx={{ m: 'auto 0' }}
-                  variant="body2"
-                  color="text.secondary"
-              >
-              
-              </TimelineOppositeContent>
+       
               <TimelineSeparator>
                   <TimelineConnector />
                   <TimelineDot color="primary">
@@ -51,10 +44,10 @@ function WorkFlow() {
                   <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h6" component="span">
-                      QUOTE
+                  <Typography variant="h5" component="span">
+                      QUOTATION
                   </Typography>
-                  <Typography variant="body2"
+                  <Typography variant="body1"
                       color="text.secondary"> We provide you with a detailed quotation that outlines 
                 all the details for your project. No hidden costs.</Typography>
               </TimelineContent>
@@ -68,10 +61,10 @@ function WorkFlow() {
                   <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h6" component="span">
+                  <Typography variant="h5" component="span">
                     QUOTATION APPROVAL 
                   </Typography>
-                  <Typography variant="body2"
+                  <Typography variant="body1"
                       color="text.secondary">
                     Once you are satisfied with the quotation and  provided us with approval,
                     your project begin.
@@ -87,10 +80,10 @@ function WorkFlow() {
                   <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h6" component="span">
+                  <Typography variant="h5" component="span">
                       PROJECT BEGINS
                   </Typography>
-                  <Typography variant="body2"
+                  <Typography variant="body1"
                       color="text.secondary">
                     Once your project begins, our team will keep you up to date on developments. 
                     We pride ourselves on delivering steel structures on time and on budget.   
@@ -108,10 +101,10 @@ function WorkFlow() {
                   <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h6" component="span">
+                  <Typography variant="h5" component="span">
                       PROJECT COMPLETED
                   </Typography>
-                  <Typography variant="body2"
+                  <Typography variant="body1"
                       color="text.secondary">
                       As soon as the project is completed, 
                       we inspect the work and final payments can be made. 
