@@ -6,7 +6,7 @@ import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import TimelineDot from '@mui/lab/TimelineDot';
-import ListAltIcon from '@mui/icons-material/ListAlt'; import LaptopMacIcon from '@mui/icons-material/LaptopMac';
+import ListAltIcon from '@mui/icons-material/ListAlt'; 
 import TaskIcon from '@mui/icons-material/Task'; 
 import CheckBoxIcon from '@mui/icons-material/CheckBox'; 
 import Typography from '@mui/material/Typography';
@@ -16,15 +16,7 @@ function WorkFlow() {
   return (
       <Timeline position="alternate">
           <TimelineItem>
-              <TimelineOppositeContent
-                  sx={{ m: 'auto 0' }}
-                  align="right"
-                  variant="body2"
-                  color="text.secondary"
-              >
-        
-                  
-              </TimelineOppositeContent>
+             
               <TimelineSeparator>
                   <TimelineConnector />
                   <TimelineDot>
@@ -37,8 +29,9 @@ function WorkFlow() {
                       Project Brief
                   </Typography>
                   <Typography variant="body2"
-                      color="text.secondary"> Provide us with a detailed brief for your project.This will include discussing sizes, detailing, 
-                      location and other requirements for your project.
+                      color="text.secondary">
+                    Provide us with a detailed brief for your project.This will include discussing sizes, detailing, 
+                    location and other requirements for your project.
                   </Typography>           
               </TimelineContent>
           </TimelineItem>
