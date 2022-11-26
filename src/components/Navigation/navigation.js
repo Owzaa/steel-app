@@ -15,7 +15,7 @@ function navigation() {
     <Container >
       <Navbar.Brand href="/">
       <Image id="logo" className='img-fluid circle-rounded   justify-center pull-left' src='images/logo-icon.jpg' width={100} height="auto" alt='tdm logo' />
-       <div className="text-muted">All <b>Steel</b> Works (Pty) Ltd</div>
+      <div className="text-muted">All <b>Steel</b> Works (Pty) Ltd</div>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse className="responsive-navbar-nav">

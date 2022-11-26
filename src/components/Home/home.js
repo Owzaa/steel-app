@@ -4,19 +4,20 @@ import CarouselExample from '../Carousel/Slider';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/esm/Container';
+import WorkFlow from '../Utilities/WorkFlow';
 
 function HomeView() {
 
     return (
         
-        <Container flex className="container-wrapper">
+        <Container flex className="container-fluid">
             <div className='container-fluid'>
                 <CarouselExample />
             </div>
 
             <div className='container-text'>
                 <h1 className='text-muted p-3 text-larger text-center text-uppercase'>
-                    <b>All Steel Works (Pty) Ltd</b>
+                <b>All Steel Works (Pty) Ltd</b>
                 </h1>
             </div>
 
@@ -85,6 +86,18 @@ function HomeView() {
                     </div>
                 </div>
             </section>
+
+<hr/>
+            <section className='container mt-2' id="ProcessFlow">
+                <div className='container-flex'>
+                    <h1 className='text-black-50 p-3 text-larger text-uppercase'>
+                       OUR WORKFLOW PROCESS
+                    </h1>
+                    <WorkFlow/>
+                </div>
+
+            </section>
+
         </Container>
     
     )
