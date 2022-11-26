@@ -65,20 +65,14 @@ function HomeView() {
 
                     <div className="container-flex fit-content mt-0 pt-0" id='callToActionContainer'>
                         <Card className="container-flex img-fluid text-white">
-                            <Card.Img max-height="350px" src="../images/cta.png" alt="Card image" className="responsive-image fluid" />
-                            <Card.ImgOverlay className='container-fluid justify-center t-0 pt-1 bg-dark bg-opacity-50 text-xlg border-radius-2'>
-                                <Card.Title >
-                                    <h3 className="text-center text-md justify-center pt-0 p-2 mt-3 mb-5 ">
-                                    <b> STEEL WORK SPECIALISTS IN AFRICA
-                                    <br />AND <br />
+                            <Card.Img maxHeight="150px" src="../images/cta.png" alt="Card image" className="responsive-image fluid" />
+                            <Card.ImgOverlay className='container-flex justify-center t-0 pt-0 bg-dark bg-opacity-50 text-xlg border-radius-2'>
+                                <Card.Title className='text-center p-1 ' >
+                                   SPECIALISTS IN AFRICA
+                                    AND 
                                     THE SUB-SAHARAN AREA....
-                                    </b>
-                                    </h3>
-                                    <Button xs href='/contact' className='btn-danger text-center pt-1  btn-sm text-white text-center'>
-                                    <h3 className="text-white p-3 mt-0 pb-0">
-                                    GET YOUR QUOTATION
-                                    </h3>
-                                    </Button>
+                               
+                                
                                 </Card.Title>
 
                             </Card.ImgOverlay>
@@ -88,9 +82,9 @@ function HomeView() {
             </section>
 
 <hr/>
-            <section className='container mt-2' id="ProcessFlow">
+            <section className='container mt-4' id="ProcessFlow">
                 <div className='container-flex'>
-                    <h1 className='text-black-50 p-3 text-larger text-uppercase'>
+                    <h1 className='text-center text-black-50 p-3 text-larger text-uppercase'>
                        OUR WORKFLOW PROCESS
                     </h1>
                     <WorkFlow/>

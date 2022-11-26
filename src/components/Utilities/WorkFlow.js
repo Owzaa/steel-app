@@ -24,10 +24,10 @@ function WorkFlow() {
                   <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h5" component="span" className='align-center'>
+                  <Typography variant="h6" component="span" className='align-center'>
                       PROJECT BRIEF
                   </Typography>
-                  <Typography variant="body1"
+                  <Typography variant="body2"
                       color="text.secondary">
                     Provide us with a detailed brief for your project.This will include discussing sizes, detailing, 
                     location and other requirements for your project.
@@ -44,10 +44,10 @@ function WorkFlow() {
                   <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h5" component="span">
+                  <Typography variant="h6" component="span">
                       QUOTATION
                   </Typography>
-                  <Typography variant="body1"
+                  <Typography variant="body2"
                       color="text.secondary"> We provide you with a detailed quotation that outlines 
                 all the details for your project. No hidden costs.</Typography>
               </TimelineContent>
@@ -61,10 +61,10 @@ function WorkFlow() {
                   <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h5" component="span">
+                  <Typography variant="h6" component="span">
                     QUOTATION APPROVAL 
                   </Typography>
-                  <Typography variant="body1"
+                  <Typography variant="body2"
                       color="text.secondary">
                     Once you are satisfied with the quotation and  provided us with approval,
                     your project begin.
@@ -80,10 +80,10 @@ function WorkFlow() {
                   <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h5" component="span">
+                  <Typography variant="h6" component="span">
                       PROJECT BEGINS
                   </Typography>
-                  <Typography variant="body1"
+                  <Typography variant="body2"
                       color="text.secondary">
                     Once your project begins, our team will keep you up to date on developments. 
                     We pride ourselves on delivering steel structures on time and on budget.   
@@ -101,10 +101,10 @@ function WorkFlow() {
                   <TimelineConnector />
               </TimelineSeparator>
               <TimelineContent sx={{ py: '12px', px: 2 }}>
-                  <Typography variant="h5" component="span">
+                  <Typography variant="h6" component="span">
                       PROJECT COMPLETED
                   </Typography>
-                  <Typography variant="body1"
+                  <Typography variant="body2"
                       color="text.secondary">
                       As soon as the project is completed, 
                       we inspect the work and final payments can be made. 
