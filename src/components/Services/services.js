@@ -10,14 +10,10 @@ function services() {
       </div>
       <hr/>
 
+    <section className="content">
 
 
-
-
-      <section className="content">
-
-
-      </section>
+    </section>
 
 
 

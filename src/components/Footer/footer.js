@@ -2,7 +2,10 @@ import React from 'react';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import ForwardToInboxIcon from '@mui/icons-material/ForwardToInbox';
 import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
-
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 const Font = { size: 18 };
 
@@ -21,6 +24,13 @@ const Footer = () => (
 <hr/>
 <WorkspacePremiumIcon/> BBBEE STATUS: 125% (Level 2)
 </div>
+
+        <div className="container-flex text-center pt-5 pb-5 " id="SocialIcons">
+            <a className="text-white" href="https://www.facebook.com/all-steel-works"><FacebookRoundedIcon fontSize="large" /></a>
+            <a className="text-white" href="/"><InstagramIcon fontSize="large" /> </a>
+            <a className="text-white" href="/"><TwitterIcon fontSize="large" /> </a>
+            <a className="text-white" href="/"><LinkedInIcon fontSize="large" /></a>
+        </div>
 
 </div>
 );

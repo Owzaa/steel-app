@@ -1,18 +1,15 @@
 import React from 'react';
 import ServiceTabs from '../Card-Images/cardTabs';
-import CarouselExample from '../Carousel/Slider';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/esm/Container';
 import WorkFlow from '../Utilities/WorkFlow';
-
+import CarouselExample from '../Carousel/Slider'
 function HomeView() {
 
     return (
         
-        <Container flex className="container-fluid">
+        <div flex className="container-fluid">
             <div className='container-fluid'>
-                <CarouselExample />
+                <CarouselExample/>
             </div>
 
             <div className='container-text'>
@@ -65,7 +62,7 @@ function HomeView() {
 
                     <div className="container-flex fit-content mt-0 pt-0" id='callToActionContainer'>
                         <Card className="container-flex img-fluid text-white">
-                            <Card.Img maxHeight="150px" src="../images/cta.png" alt="Card image" className="responsive-image fluid" />
+                            <Card.Img height="150px" src="../images/cta.png" alt="Card image" className="responsive-image fluid" />
                             <Card.ImgOverlay className='container-flex justify-center t-0 pt-0 bg-dark bg-opacity-50 text-xlg border-radius-2'>
                                 <Card.Title className='text-center p-1 ' >
                                    SPECIALISTS IN AFRICA
@@ -92,7 +89,7 @@ function HomeView() {
 
             </section>
 
-        </Container>
+        </div>
     
     )
 }
